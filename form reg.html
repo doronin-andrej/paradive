@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='Windows 1251'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div class="register-form">
+        <h2>Register here</h2>
+        <form>
+            <p>
+                <label>
+                    <span>First name</span>
+                    <input type="text" name="firstname" autocomplete "off" />
+
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Last name</span>
+                    <input type="text" name="lastname" autocomplete "off" />
+
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Date of birth</span>
+                    <input type="e-mail" name="birth-date" autocomplete "off" />
+
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>E-mail</span>
+                    <input type="date" name="e-mail" autocomplete "off" required />
+
+                </label>
+            </p>
+            <div>
+                <p>About you</p>
+                <textarea required cols="80" rows="6"></textarea>
+            </div>
+
+            <div>
+                <h5>Age</h5>
+                <p>
+                    <label>
+                        <input type="radio" name="age" value="0"/>
+                        <span>0-18</span>
+                    </label>
+                </p>
+                <p>
+                    <input type="radio" name="age" value="19" checked id="age-19"/>
+                    <label for="age-19">19-55</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="age" value="56"/>
+                        <span>55+</span>
+                    </label>
+                </p>
+            </div>
+
+            <div>
+                <p>Coutry of living</p>
+                <select name="country" multiple>
+                    <option value="ru">Russia</option>
+                    <option value="us">USA</option>
+                    <option value="hu">Hungary</option>
+                    <option value="sa">Southern Africa</option>
+                </select>
+            </div>
+            <p>
+                <label>
+                    <input type="checkbox" required name="user-agreement"/>
+                    <span>I agee with user agreement.</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" required name="terms"/>
+                    <span>I agee with <a href="">terms of use.</a></span>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value="Register"/>
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
