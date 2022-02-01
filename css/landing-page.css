@@ -1,0 +1,127 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+body{
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	margin: 0;
+	max-width: 100%;
+	color: #fff;
+	background: #010101;
+	padding: 95px 0 40px 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #ffb300;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0 0 20px 0;
+	font-family: 'Raleway', sans-serif;
+}
+.container-fluid{
+	max-width: 1710px;
+	margin: 0 auto;
+	background-color: black;
+}
+.section_common{
+	position: relative;
+	height: auto;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+#content-section{
+	margin-bottom: 20px;
+	position: relative;
+	overflow: visible;
+}
+.site_list_item{
+	float: left;
+	width: 16.66666667%;
+	padding: 0 15px;
+	min-height: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.item_v{
+	display: block;
+}
+.item_h{
+	display: none;
+}
+#site_lists{}
+#site_lists a{
+	padding: 1px;
+	padding-bottom: 0;
+	background: transparent;
+	display: block;
+	position: relative;
+}
+.site_item_1:hover{
+  background: -webkit-linear-gradient(#0090df, #111416);
+  background: -o-linear-gradient(#0090df, #111416);
+  background: linear-gradient(#0090df, #111416);
+  color: #0090df;
+}
+.site_item_2:hover{
+  color: #ffb300;
+
+}
+
+#site_lists a span{
+	position: absolute;
+	bottom: 45px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 24px;
+}
+#site_lists img {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+#site_lists img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+#logo{
+	text-align: center;
+	left: 50%;
+	margin-left: -70px;
+	top: -32px;
+	z-index: 11;
+	position: absolute;
+	max-width: 139px;
+}
+#logo a{
+	display: block;
+}
+
+
+#footer-section{}
+.footer-cta{
+	text-align: right;
+}
+.footer-cta a{
+	display: inline-block;
+}
+.footer-cta a:hover{}
+
+#cookie-notice { background-color: rgb(0,0,0,.8) !important; }
+
+#cookie-notice .button {
+	background: #238FCF!important;
+}
